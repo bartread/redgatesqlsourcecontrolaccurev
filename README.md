@@ -1,4 +1,4 @@
-redgatesqlsourcecontrolaccurev
-==============================
+Accurev Support for Red Gate SQL Source Control
+===============================================
 
-Accurev support for Red Gate's SQL Source Control
+XML file for configuring Red Gate's SQL Source Control to work with Accurev.
