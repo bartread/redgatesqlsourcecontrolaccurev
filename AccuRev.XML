@@ -69,7 +69,7 @@ output - The console output from the command
       <key type="string">Revert</key>
       <!-- Undoes changes if an error occurs during a commit -->
       <value version="1" type="GenericHookCommand">
-        <CommandLine></CommandLine>
+        <CommandLine>accurev purge ($Files)</CommandLine>
         <Verify>exitCode == 0</Verify>
       </value>
     </element>
