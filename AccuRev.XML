@@ -61,7 +61,7 @@ output - The console output from the command
       <key type="string">Commit</key>
       <!-- Commits all changes in the local working folder to source control. -->
       <value version="1" type="GenericHookCommand">
-        <CommandLine>accurev add -c -d ($Files) </CommandLine>
+        <CommandLine>accurev promote -c "($Message)" -k</CommandLine>
         <Verify>exitCode == 0</Verify>
       </value>
     </element>
